@@ -1,0 +1,80 @@
+Metadata-Version: 2.4
+Name: PyCVA
+Version: 0.1.0
+Summary: Package that consolidates multiple tools related to stoke research and analysis
+Author: James Boogaard, Dr Su Ruisheng
+License: MIT
+Requires-Python: ==3.11
+Description-Content-Type: text/markdown
+Requires-Dist: alabaster==1.0.0
+Requires-Dist: antspyx==0.5.4
+Requires-Dist: anyio==4.9.0
+Requires-Dist: babel==2.17.0
+Requires-Dist: certifi==2025.6.15
+Requires-Dist: charset-normalizer==3.4.2
+Requires-Dist: click==8.2.1
+Requires-Dist: colorama==0.4.6
+Requires-Dist: contourpy==1.3.2
+Requires-Dist: cycler==0.12.1
+Requires-Dist: docutils==0.21.2
+Requires-Dist: e==1.4.5
+Requires-Dist: fonttools==4.58.4
+Requires-Dist: h11==0.16.0
+Requires-Dist: idna==3.10
+Requires-Dist: imageio==2.37.0
+Requires-Dist: imagesize==1.4.1
+Requires-Dist: Jinja2==3.1.6
+Requires-Dist: kiwisolver==1.4.8
+Requires-Dist: lazy_loader==0.4
+Requires-Dist: MarkupSafe==3.0.2
+Requires-Dist: matplotlib==3.10.3
+Requires-Dist: natsort==8.4.0
+Requires-Dist: networkx==3.5
+Requires-Dist: nibabel==4.0.2
+Requires-Dist: numpy==1.26.4
+Requires-Dist: opencv-python==4.11.0.86
+Requires-Dist: packaging==25.0
+Requires-Dist: pandas==2.3.0
+Requires-Dist: patsy==1.0.1
+Requires-Dist: pillow==11.2.1
+Requires-Dist: pydicom==3.0.1
+Requires-Dist: Pygments==2.19.2
+Requires-Dist: pyparsing==3.2.3
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2025.2
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: requests==2.32.4
+Requires-Dist: roman-numerals-py==3.1.0
+Requires-Dist: scikit-image==0.25.2
+Requires-Dist: scipy==1.16.0
+Requires-Dist: SimpleITK==2.5.0
+Requires-Dist: SimpleITK-SimpleElastix==2.0.0rc2.dev910
+Requires-Dist: six==1.17.0
+Requires-Dist: sniffio==1.3.1
+Requires-Dist: snowballstemmer==3.0.1
+Requires-Dist: Sphinx==8.2.3
+Requires-Dist: sphinx-autobuild==2024.10.3
+Requires-Dist: sphinxcontrib-applehelp==2.0.0
+Requires-Dist: sphinxcontrib-devhelp==2.0.0
+Requires-Dist: sphinxcontrib-htmlhelp==2.1.0
+Requires-Dist: sphinxcontrib-jsmath==1.0.1
+Requires-Dist: sphinxcontrib-qthelp==2.0.0
+Requires-Dist: sphinxcontrib-serializinghtml==2.0.0
+Requires-Dist: starlette==0.47.1
+Requires-Dist: statsmodels==0.14.4
+Requires-Dist: tifffile==2025.6.11
+Requires-Dist: tqdm==4.67.1
+Requires-Dist: typing_extensions==4.14.0
+Requires-Dist: tzdata==2025.2
+Requires-Dist: urllib3==2.5.0
+Requires-Dist: uvicorn==0.35.0
+Requires-Dist: watchfiles==1.1.0
+Requires-Dist: webcolors==24.11.1
+Requires-Dist: websockets==15.0.1
+
+AutoTICI source code: https://github.com/RuishengSu/autoTICI
+CAVE source code: https://github.com/RuishengSu/CAVE_DSA
+
+Requires you to use python 3.11, here is a link: (https://www.python.org/downloads/release/python-3110/)
+
+to launch the sphinx docs: C:\Users\james\OneDrive\Documents\PersonalFolder\pyCVA\PyCVA\src\docs>sphinx-autobuild source build/html   

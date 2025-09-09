@@ -1,0 +1,21 @@
+autotici.utils package
+======================
+
+Submodules
+----------
+
+autotici.utils.utils module
+---------------------------
+
+.. automodule:: autotici.utils.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autotici.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,21 @@
+services:
+  perfDSA:
+    image: perfDSA_docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint:
+      [
+        "conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "name_env",
+        "python",
+        "predict.py",
+      ]
+    volumes:
+      - any_volumes_you_wish_to_mount
+    working_dir: /app
+    command:
+      - "The command you wish to run inside the container"

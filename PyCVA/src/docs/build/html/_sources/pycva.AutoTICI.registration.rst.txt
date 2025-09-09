@@ -1,0 +1,37 @@
+pycva.AutoTICI.registration package
+===================================
+
+Submodules
+----------
+
+pycva.AutoTICI.registration.motion\_correction module
+-----------------------------------------------------
+
+.. automodule:: pycva.AutoTICI.registration.motion_correction
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+pycva.AutoTICI.registration.prepost\_registration module
+--------------------------------------------------------
+
+.. automodule:: pycva.AutoTICI.registration.prepost_registration
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+pycva.AutoTICI.registration.transformation module
+-------------------------------------------------
+
+.. automodule:: pycva.AutoTICI.registration.transformation
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: pycva.AutoTICI.registration
+   :members:
+   :show-inheritance:
+   :undoc-members:

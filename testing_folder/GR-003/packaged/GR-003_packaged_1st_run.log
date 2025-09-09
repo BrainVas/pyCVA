@@ -1,0 +1,4 @@
+2025-06-29 11:10:39 INFO     Using device cpu
+2025-06-29 11:10:39 INFO     Model loaded from /app/checkpoints/minip_vessel_sigmoid_image1024_solar-resonance-1172.pt
+2025-06-29 11:10:39 INFO     Done!
+0:06:14.343050

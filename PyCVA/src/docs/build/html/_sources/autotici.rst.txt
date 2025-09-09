@@ -1,0 +1,53 @@
+autotici package
+================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   autotici.utils
+
+Submodules
+----------
+
+autotici.autotici module
+------------------------
+
+.. automodule:: autotici.autotici
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autotici.autotici\_wrapper module
+---------------------------------
+
+.. automodule:: autotici.autotici_wrapper
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autotici.config module
+----------------------
+
+.. automodule:: autotici.config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+autotici.phase\_predict\_wrapper module
+---------------------------------------
+
+.. automodule:: autotici.phase_predict_wrapper
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: autotici
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,37 @@
+
+
+services:
+  cave:
+    image: cave_docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: ["conda", "run", "--no-capture-output", "-n", "cave_env", "python", "predict.py"]
+    volumes:
+      - ./input_dicom:/app/input_dicom
+      - ./output_masks:/app/output_masks
+      - ./checkpoints:/app/checkpoints
+    working_dir: /app
+    command:
+      - "input_dicom/R3418/SN3_Vap_SOP1.2.826.0.1.3680043.9.6827.2401407280984092171337075126937802959.dcm"
+      - "output_masks/output_mask.png"
+      - "checkpoints/minip_av_sigmoid_image1024_valiant-resonance-1199.pt"
+      - "--input-type"
+      - "minip"
+      - "--label-type"
+      - "av"
+      - "--img_size"
+      - "1024"
+
+
+#    -v "${PWD}/input_dicom:/app/input_dicom" `
+#    -v "${PWD}/output_masks:/app/output_masks" `
+#    -v "${PWD}/checkpoints:/app/checkpoints" `
+#    cave_docker `
+#    input_dicom/SN3_Vap_SOP1.2.826.0.1.3680043.9.6827.2401407280984092171337075126937802959.dcm `
+#    output_masks/output_mask.png `
+#    checkpoints/minip_av_sigmoid_image1024_valiant-resonance-1199.pt `
+#    --input-type minip `
+#    --label-type av `
+#    --img_size 1024 
+

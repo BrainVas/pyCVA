@@ -1,0 +1,5 @@
+2025-06-29 11:16:31 INFO     Using device cpu
+2025-06-29 11:16:31 INFO     Model loaded from /app/checkpoints/minip_av_sigmoid_image1024_valiant-resonance-1199.pt
+Warning: sequence is unnecessarily long (24), cutting it to 20 frames based on minimum contrast.
+2025-06-29 11:16:47 INFO     Done!
+0:06:04.742043

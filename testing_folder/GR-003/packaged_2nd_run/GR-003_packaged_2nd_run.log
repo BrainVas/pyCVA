@@ -1,0 +1,6 @@
+Model folder already populated at checkpoints
+2025-06-29 12:24:36 INFO     Using device cpu
+2025-06-29 12:24:37 INFO     Model loaded from /app/checkpoints/minip_vessel_sigmoid_image1024_solar-resonance-1172.pt
+Warning: sequence is unnecessarily long (24), cutting it to 20 frames based on minimum contrast.
+2025-06-29 12:25:08 INFO     Done!
+0:00:32.346316

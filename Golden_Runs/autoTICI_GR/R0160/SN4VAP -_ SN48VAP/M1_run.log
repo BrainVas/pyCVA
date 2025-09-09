@@ -1,0 +1,103 @@
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 64, 112, 112]           9,408
+       BatchNorm2d-2         [-1, 64, 112, 112]             128
+              ReLU-3         [-1, 64, 112, 112]               0
+         MaxPool2d-4           [-1, 64, 56, 56]               0
+            Conv2d-5           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-6           [-1, 64, 56, 56]             128
+              ReLU-7           [-1, 64, 56, 56]               0
+            Conv2d-8           [-1, 64, 56, 56]          36,864
+       BatchNorm2d-9           [-1, 64, 56, 56]             128
+             ReLU-10           [-1, 64, 56, 56]               0
+       BasicBlock-11           [-1, 64, 56, 56]               0
+           Conv2d-12           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-13           [-1, 64, 56, 56]             128
+             ReLU-14           [-1, 64, 56, 56]               0
+           Conv2d-15           [-1, 64, 56, 56]          36,864
+      BatchNorm2d-16           [-1, 64, 56, 56]             128
+             ReLU-17           [-1, 64, 56, 56]               0
+       BasicBlock-18           [-1, 64, 56, 56]               0
+           Conv2d-19          [-1, 128, 28, 28]          73,728
+      BatchNorm2d-20          [-1, 128, 28, 28]             256
+             ReLU-21          [-1, 128, 28, 28]               0
+           Conv2d-22          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-23          [-1, 128, 28, 28]             256
+           Conv2d-24          [-1, 128, 28, 28]           8,192
+      BatchNorm2d-25          [-1, 128, 28, 28]             256
+             ReLU-26          [-1, 128, 28, 28]               0
+       BasicBlock-27          [-1, 128, 28, 28]               0
+           Conv2d-28          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-29          [-1, 128, 28, 28]             256
+             ReLU-30          [-1, 128, 28, 28]               0
+           Conv2d-31          [-1, 128, 28, 28]         147,456
+      BatchNorm2d-32          [-1, 128, 28, 28]             256
+             ReLU-33          [-1, 128, 28, 28]               0
+       BasicBlock-34          [-1, 128, 28, 28]               0
+           Conv2d-35          [-1, 256, 14, 14]         294,912
+      BatchNorm2d-36          [-1, 256, 14, 14]             512
+             ReLU-37          [-1, 256, 14, 14]               0
+           Conv2d-38          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-39          [-1, 256, 14, 14]             512
+           Conv2d-40          [-1, 256, 14, 14]          32,768
+      BatchNorm2d-41          [-1, 256, 14, 14]             512
+             ReLU-42          [-1, 256, 14, 14]               0
+       BasicBlock-43          [-1, 256, 14, 14]               0
+           Conv2d-44          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-45          [-1, 256, 14, 14]             512
+             ReLU-46          [-1, 256, 14, 14]               0
+           Conv2d-47          [-1, 256, 14, 14]         589,824
+      BatchNorm2d-48          [-1, 256, 14, 14]             512
+             ReLU-49          [-1, 256, 14, 14]               0
+       BasicBlock-50          [-1, 256, 14, 14]               0
+           Conv2d-51            [-1, 512, 7, 7]       1,179,648
+      BatchNorm2d-52            [-1, 512, 7, 7]           1,024
+             ReLU-53            [-1, 512, 7, 7]               0
+           Conv2d-54            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-55            [-1, 512, 7, 7]           1,024
+           Conv2d-56            [-1, 512, 7, 7]         131,072
+      BatchNorm2d-57            [-1, 512, 7, 7]           1,024
+             ReLU-58            [-1, 512, 7, 7]               0
+       BasicBlock-59            [-1, 512, 7, 7]               0
+           Conv2d-60            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-61            [-1, 512, 7, 7]           1,024
+             ReLU-62            [-1, 512, 7, 7]               0
+           Conv2d-63            [-1, 512, 7, 7]       2,359,296
+      BatchNorm2d-64            [-1, 512, 7, 7]           1,024
+             ReLU-65            [-1, 512, 7, 7]               0
+       BasicBlock-66            [-1, 512, 7, 7]               0
+AdaptiveAvgPool2d-67            [-1, 512, 1, 1]               0
+           Linear-68                    [-1, 4]           2,052
+================================================================
+Total params: 11,178,564
+Trainable params: 11,178,564
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 62.79
+Params size (MB): 42.64
+Estimated Total Size (MB): 106.00
+----------------------------------------------------------------
+2025-05-14 09:53:41 INFO     ==============================Configurations==============================
+2025-05-14 09:53:41 INFO     Input PreEVT: R0160/SN4_Vap_SOP1.3.6.1.4.1.40744.9.96512919107112378459801894939320275800.dcm
+2025-05-14 09:53:41 INFO     Input PostEVT: R0160/SN48_Vap_SOP1.3.6.1.4.1.40744.9.240652218335563114333841994061787237987.dcm
+2025-05-14 09:53:41 INFO     Apply motion correction on input DSA: False
+2025-05-14 09:53:41 INFO     Occlusion location: M1
+2025-05-14 09:53:41 INFO     ----------------------------------------------------------------------
+2025-05-14 09:53:42 INFO     preEVT spacing: 0.11761966347694397, postEVT spacing: 0.11761966347694397
+2025-05-14 09:53:42 INFO     PreEVT (185+/-16, uint8), PostEVT (202+/-40, uint8)
+2025-05-14 09:53:51 INFO     Predicting vascular territory on post-EVT MINIP.
+2025-05-14 09:53:56 INFO     Registering preEVT to postEVT MinIP.
+2025-05-14 09:54:05 INFO     Removing venous phases
+2025-05-14 09:54:05 INFO     label sequence: [1, 1, 1, 1, 1, 1, 2, 2]
+2025-05-14 09:54:05 INFO     Predicted phase borders: [first_arterial, last_arterial, last_parenchymal] = [0, 5, 7]
+2025-05-14 09:54:06 INFO     label sequence: [1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3]
+2025-05-14 09:54:06 INFO     Predicted phase borders: [first_arterial, last_arterial, last_parenchymal] = [0, 4, 11]
+2025-05-14 09:54:09 INFO     autoTICI score: 0.27024647539786256
+[ WARN:0@35.321] global loadsave.cpp:848 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
+2025-05-14 09:54:09 INFO     Done
+0:00:31.035720
+Done
+
+[GR-002]

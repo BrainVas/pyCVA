@@ -1,0 +1,8 @@
+.venv
+.pt
+.model
+.pth
+.pt?download=1
+Adding_A_Tool_Artefacts/
+Dockerising_HPC_Tools/autoTICI/input_images/
+input_images/

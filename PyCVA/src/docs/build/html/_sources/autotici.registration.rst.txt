@@ -1,0 +1,37 @@
+autotici.registration package
+=============================
+
+Submodules
+----------
+
+autotici.registration.motion\_correction module
+-----------------------------------------------
+
+.. automodule:: autotici.registration.motion_correction
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+autotici.registration.prepost\_registration module
+--------------------------------------------------
+
+.. automodule:: autotici.registration.prepost_registration
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+autotici.registration.transformation module
+-------------------------------------------
+
+.. automodule:: autotici.registration.transformation
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Module contents
+---------------
+
+.. automodule:: autotici.registration
+   :members:
+   :show-inheritance:
+   :undoc-members:

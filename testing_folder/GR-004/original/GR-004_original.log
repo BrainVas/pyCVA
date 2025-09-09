@@ -1,0 +1,7 @@
+(CAVE_Env) [20250406@tue-login001 CAVE_DSA]$ python predict.py   input_dicom/R3418/SN10_Vlateral_SOP1.2.826.0.1.3680043.9.6827.1857191185591698678852008779522016086.dcm   output_masks/output_mask.png   checkpoints/minip_av_sigmoid_image1024_valiant-resonance-1199.pt   --input-type minip   --label-type av   --img_size 1024
+2025-06-08 19:58:20 INFO     Using device cpu
+2025-06-08 19:58:20 INFO     Model loaded from checkpoints/minip_av_sigmoid_image1024_valiant-resonance-1199.pt
+Warning: sequence is unnecessarily long (24), cutting it to 20 frames based on minimum contrast.
+2025-06-08 19:58:27 INFO     Done!
+time to execute: 0:00:07.132910
+[GR-004]

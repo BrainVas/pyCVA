@@ -1,0 +1,9 @@
+(CAVE_Env) [20250406@tue-login001 CAVE_DSA]$ python predict.py   input_dicom/R3418/SN10_Vap_SOP1.2.826.0.1.3680043.9.6827.2619603212203373380215256193355264957
+.dcm   output_masks/output_mask.png   checkpoints/minip_vessel_sigmoid_image1024_solar-resonance-1172.pt   --input-type minip   --label-type vessel   --img_siz
+e 1024
+2025-06-08 20:14:00 INFO     Using device cpu
+2025-06-08 20:14:01 INFO     Model loaded from checkpoints/minip_vessel_sigmoid_image1024_solar-resonance-1172.pt
+Warning: sequence is unnecessarily long (24), cutting it to 20 frames based on minimum contrast.
+2025-06-08 20:14:09 INFO     Done!
+time to execute: 0:00:09.762851
+[GR-003]
